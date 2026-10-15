@@ -47,7 +47,7 @@ claude plugin install productivity@knowledge-work-plugins        # v1.3.1
 ```
 - **Cowork / claude.ai:** `claude.com/plugins`에서 설치한다(README "Getting Started").
 - **호출 방식:** 플러그인 이름 접두사가 붙은 슬래시 명령으로 부른다. 예: `/marketing:performance-report`, `/data:validate-data`, `/product-management:metrics-review`. 설명(description)이 맞으면 스킬이 자동으로 발동하기도 한다. `task-management`는 `user-invocable: false`라서 자동 참조 전용이다.
-- **마켓플레이스 이름:** `.claude-plugin/marketplace.json`의 name은 `knowledge-work-plugins`다. 등록 플러그인은 130개가 넘는다(Anthropic 제작 + 파트너 제작).
+- **마켓플레이스 이름:** `.claude-plugin/marketplace.json`의 name은 `knowledge-work-plugins`다. 등록 플러그인은 123개다(Anthropic 제작 + 파트너 제작).
 - **README와 실제 구조의 차이:** `marketing/README.md`는 스킬을 `content-creation`, `campaign-planning`, `performance-analytics` 등으로 소개한다. 하지만 실제 폴더는 `performance-report`, `campaign-plan`, `draft-content`, `brand-review`, `competitive-brief`, `seo-audit`, `email-sequence`, `content-creation`이다. 명령과 스킬이 하나로 통합된 구조로 바뀌었고, README가 아직 갱신되지 않았다. **설치 후 실제 이름은 `/` 목록에서 확인해야 한다.**
 
 ### 1.2 플러그인 전체가 아니라 스킬 하나만 쓰는 법
